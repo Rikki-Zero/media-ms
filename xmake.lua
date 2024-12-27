@@ -12,7 +12,7 @@ target("sqlite3")
 
 target("media-ms")
     set_kind("binary")
-    set_languages("c11")
+    set_languages("c++17")
     set_optimize("fastest")
     add_deps("sqlite3")
     add_files("src/**.cpp")
